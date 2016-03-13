@@ -14,10 +14,10 @@ public class Ranking{
 		last=0;
 	}
 
-/** Records the name and the result of the player 
- * @param the result of the game play (how many steps the player survived)
- * 
- */
+	/** Records the name and the result of the player 
+	 * @param the result of the game play (how many steps the player survived)
+	 * 
+	 */
 	public void recordName(int result) {
 		System.out.print("\n Please enter your name -");
 		Scanner in=new Scanner(System.in);
@@ -41,9 +41,9 @@ public class Ranking{
 		show();
 	}
 
-/**
- * Shows the score board 
- */
+	/**
+	 * Shows the score board 
+	 */
 	public void show() {
 		if(last==0){
 			System.out.println("Still no results");
@@ -55,9 +55,9 @@ public class Ranking{
 		}
 	}
 	
-/**
- * Sorts the results by score
- */
+	/**
+	 * Sorts the results by score
+	 */
 	private void sort(){
 		if(last<2) return;
 		
