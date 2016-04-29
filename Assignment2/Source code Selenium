@@ -31,17 +31,17 @@
 <tr>
 	<td>type</td>
 	<td>name=customer_info[Customer][Email]</td>
-	<td>test1@test.com</td>
+	<td>test2@test.com</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=customer_info[Customer][Password]</td>
-	<td>1234</td>
+	<td>test2</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=customer_info[Customer][RePassword]</td>
-	<td>1234</td>
+	<td>test2</td>
 </tr>
 <tr>
 	<td>type</td>
